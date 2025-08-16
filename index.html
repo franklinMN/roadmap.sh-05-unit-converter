@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit converter</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>📝Unit Converter</h1>
+        <nav class="font">
+          <ul>
+            <li class="nav-active">LENGTH</li>
+            <li>WEIGHT</li>
+            <li>TEMPERATURE</li>
+          </ul>
+        </nav>
+      </div>
+      <div class="main font">
+        <div class="input-container length-container">
+          <!-- <div class="input-title">Centemeter</div> -->
+          <div class="input-wrapper">
+            <div class="input-box">
+              <label for="millimeter">millimeter</label>
+              <input type="number" name="millimeter" id="millimeter" />
+            </div>
+          </div>
+          <div class="input-wrapper">
+            <div class="input-box">
+              <label for="centimeter">centimeter</label>
+              <input type="number" name="centimeter" id="centimeter" />
+            </div>
+          </div>
+          <div class="input-wrapper">
+            <div class="input-box">
+              <label for="meter">meter</label>
+              <input type="number" name="meter" id="meter" />
+            </div>
+          </div>
+          <div class="input-wrapper">
+            <div class="input-box">
+              <label for="kilometer">kilometer</label>
+              <input type="number" name="kilometer" id="kilometer" />
+            </div>
+          </div>
+          <div class="input-wrapper">
+            <div class="input-box">
+              <label for="inch">inch</label>
+              <input type="number" name="inch" id="inch" />
+            </div>
+          </div>
+          <div class="input-wrapper">
+            <div class="input-box">
+              <label for="foot">foot</label>
+              <input type="number" name="foot" id="foot" />
+            </div>
+          </div>
+          <div class="input-wrapper">
+            <div class="input-box">
+              <label for="yard">yard</label>
+              <input type="number" name="yard" id="yard" />
+            </div>
+          </div>
+          <div class="input-wrapper">
+            <div class="input-box">
+              <label for="mile">mile</label>
+              <input type="number" name="mile" id="mile" />
+            </div>
+          </div>
+        </div>
+
+        <!-- -------------------WEIGHT CONTAINER ----------------------------- -->
+
+        <div class="input-container weight-container hide">
+          <!-- <div class="input-title">Centemeter</div> -->
+          <div class="input-wrapper">
+            <div class="input-box">
+              <label for="milligram">milligram</label>
+              <input type="number" name="milligram" id="milligram" />
+            </div>
+          </div>
+          <div class="input-wrapper">
+            <div class="input-box">
+              <label for="gram">gram</label>
+              <input type="number" name="gram" id="gram" />
+            </div>
+          </div>
+          <div class="input-wrapper">
+            <div class="input-box">
+              <label for="kilogram">kilogram</label>
+              <input type="number" name="kilogram" id="kilogram" />
+            </div>
+          </div>
+          <div class="input-wrapper">
+            <div class="input-box">
+              <label for="ounce">ounce</label>
+              <input type="number" name="ounce" id="ounce" />
+            </div>
+          </div>
+          <div class="input-wrapper">
+            <div class="input-box">
+              <label for="pound">pound</label>
+              <input type="number" name="pound" id="pound" />
+            </div>
+          </div>
+        </div>
+
+        <!-- -------------------TEMPERATURE CONTAINER ----------------------------- -->
+
+        <div class="input-container temperature-container hide">
+          <!-- <div class="input-title">Centemeter</div> -->
+          <div class="input-wrapper">
+            <div class="input-box">
+              <label for="celsius">celsius</label>
+              <input type="number" name="celsius" id="celsius" />
+            </div>
+          </div>
+          <div class="input-wrapper">
+            <div class="input-box">
+              <label for="fahrenheit">fahrenheit</label>
+              <input type="number" name="fahrenheit" id="fahrenheit" />
+            </div>
+          </div>
+          <div class="input-wrapper">
+            <div class="input-box">
+              <label for="kelvin">kelvin</label>
+              <input type="number" name="kelvin" id="kelvin" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
